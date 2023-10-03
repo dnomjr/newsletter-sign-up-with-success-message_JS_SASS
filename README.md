@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github link](https://github.com/dnomjr/newsletter-sign-up-with-success-message_JS_SASS.git)
-- Live Site URL: [Netlify link]()
+- Live Site URL: [Netlify link](https://newsletter-sign-up-with-success-mesag.netlify.app/)
 
 ### Built with
 
