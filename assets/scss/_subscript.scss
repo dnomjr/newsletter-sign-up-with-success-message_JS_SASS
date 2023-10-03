@@ -1,0 +1,84 @@
+.main-content {
+    width: 500px;
+    background-color: $white;
+    border-radius: 30px;
+    margin-inline: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 60px;
+}
+
+.title-heading {
+    margin: 0;
+    font-size: 50px;
+    color: $dark-slate-gray;
+}
+
+.logo-success {
+    width: 15%;
+    margin-bottom: 35px;
+}
+
+.text {
+    color: $dark-slate-gray;
+    padding-right: 40px;
+}
+
+#email-name {
+    font-weight: 700;
+}
+
+%inputt {
+    display: block;
+    margin-bottom: 1.875rem;
+    margin-top: 0;
+    width: 23.4375rem;
+    height: 3.4375rem;
+    border-radius: 0.625rem;
+    border: none;
+}
+
+%inputt:hover,
+%inputt:active {
+    cursor: pointer;
+}
+
+.submit-subscript:hover,
+.submit-subscript:active {
+    background-color: $primary-color;
+}
+
+.submit-subscript {
+    @extend %inputt;
+    color: $white;
+    font-weight: $font-weight-700;
+    background-color: $dark-slate-gray;
+}
+@media screen and (max-width: 900px) {
+    .main-content {
+        width: 375px;
+
+        margin: 0 auto;
+        padding: 200px 0 60px 20px;
+        border-radius: 0;
+    }
+
+    .title-heading {
+        margin: 0;
+        font-size: 50px;
+        color: $dark-slate-gray;
+    }
+
+    %inputt {
+        display: block;
+        margin-top: 300px;
+        width: 335px;
+        height: 3.4375rem;
+        border-radius: 0.625rem;
+        border: none;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
